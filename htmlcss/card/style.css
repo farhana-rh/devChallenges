@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+.box {
+  font-family: "Sora", system-ui;
+  width: 370px;
+}
+.card {
+  padding: 16px 20px;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+span {
+  margin-top: 16px;
+  display: block;
+  border-radius: 20px;
+  border: 1px #e6d6fc solid;
+  background-color: #e6d6fc;
+  color: #883ae1;
+  width: 10%;
+  padding: 6px 15px;
+  font-size: 0.625rem;
+  font-weight: 700;
+}
+h1 {
+  margin-top: 16px;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+p {
+  margin-top: 6px;
+  font-size: 0.875rem;
+  font-weight: 100;
+  font-style: normal;
+  font-color: #6c727f;
+}
+h4 {
+  color: #6c727f;
+  font-size: 0.625rem;
+  font-weight: 100;
+  font-style: normal;
+}
